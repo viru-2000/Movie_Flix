@@ -1,13 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Bokor", system-ui !important;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke !important;
+  background-color: #343a40 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.menus{
+  width: 100%;
+  justify-content: end;
+  gap: 20px;
+}
+.Footer{
+  padding-top: 25px;
+  text-align: center;
+  background: white;
+  color: black !important;
+  height: 70px;
+}
+.pagination{
+  justify-content: space-evenly;
+  color: black !important;;
+
+}
+
+.img{
+  border-radius: 25px !important;
+}
+#x1{
+  text-align: center;
+} 
+.h3{
+  text-align: center;
+} 
+.a:hover {
+  background-color: grey !important;;
+font-size: 18px;
+  box-shadow: 10px 1  px solid black;
+}
+.moviedetails{
+
+  background-color: black !important;
+  
+}
+.movieimg{
+  background-position: center;
 }
